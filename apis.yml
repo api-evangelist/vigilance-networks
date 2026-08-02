@@ -1,4 +1,16 @@
 aid: vigilance-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vigilance-networks.png
 name: Vigilance Networks
 description: Vigilance Networks is a company surfaced as a portfolio company of battery-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -21,3 +33,18 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Probed vigilancenetworks.com (exact-name match, resolves 145.79.4.77):
+    "AI-Assisted IT Infrastructure & Network Solutions", a local Orlando /
+    Northeast Florida managed-IT provider for homes and small businesses. No
+    public API surface — /api, /developers, /docs, /.well-known/security.txt all
+    404; no OpenAPI, SDKs, MCP, or developer portal. No DNSSEC/CAA/HSTS; SPF
+    present, DMARC p=none. Nearby name-collision domains are unrelated companies
+    (getvigilance.com = "Compliance Vigilance"; vigilance.io parked). Battery
+    Ventures attribution is unverified and looks like a VC-portfolio
+    domain-match false positive.
